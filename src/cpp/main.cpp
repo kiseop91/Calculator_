@@ -26,13 +26,13 @@ int main()
 			cout <<"더하기 연산결과는 : "<< num1 + num2 <<" 입니다."<< endl;
 			break;
 		case 2:
-			cout << "미구현입니다" << endl;
+			cout << "빼기 연산결과는 : " << num1 - num2 << endl;
 			break;
 		case 3:
-			cout << "미구현입니다" << endl;
+			cout << "곱셈 연산결과는 : " << num1 * num2 << endl;
 			break;
 		case 4:
-			cout << "미구현입니다" << endl;
+			cout << "나누기 연산결과는 : " << num1 / num2 << endl;
 			break;
 		}
 		cout << endl;
