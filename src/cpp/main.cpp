@@ -6,33 +6,33 @@ int main()
 	int menu;
 	while (true)
 	{
-		cout << "========메뉴========" << endl;
-		cout << "1. 덧셈  2. 뺄샘  3. 곱셈  4. 나눗셈 5.종료" << endl;
-		cout << "연산을 선택해주세요 (숫자입력) : ";
+		cout << "==========Menu=========" << endl;
+		cout << "1. addition  2. subtraction   3. multiplication   4. division  5.finish" << endl;
+		cout << "Choose one of calculations (input number) : ";
 		cin >> menu;
 
 		if (menu == 5) {
-			cout << "종료합니다.";
+			cout << "Finished.";
 			exit(0);
 		}
 
 		int num1, num2;
-		cout << "두 숫자를 입력해주세요 : ";
+		cout << "Input two numbers : ";
 		cin >> num1 >> num2;
 
 		switch (menu)
 		{
 		case 1:
-			cout <<"더하기 연산결과는 : "<< num1 + num2 <<" 입니다."<< endl;
+			cout << "Result of Additions is : " << num1 + num2 << endl;
 			break;
 		case 2:
-			cout << "빼기 연산결과는 : " << num1 - num2 << endl;
+			cout << "Result of subtraction is : " << num1 - num2 << endl;
 			break;
 		case 3:
-			cout << "곱셈 연산결과는 : " << num1 * num2 << endl;
+			cout << "Result of multiplication is : " << num1 * num2 << endl;
 			break;
 		case 4:
-			cout << "나누기 연산결과는 : " << num1 / num2 << endl;
+			cout << "Result of division is : " << num1 / num2 << endl;
 			break;
 		}
 		cout << endl;
